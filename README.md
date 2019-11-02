@@ -2,7 +2,7 @@
 
 Massively simplified clone of https://github.com/obihann/archey-osx optimised for speed.
 
-```
+```zsh
 zplg ice lucid atload'_cached_archey'
 zplg light aluxian/archey-zsh
 ```
