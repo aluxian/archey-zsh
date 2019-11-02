@@ -53,3 +53,8 @@ function _cached_archey() {
   local CACHE_FILE_PATH=/tmp/archey-cache.txt
   [ -f $CACHE_FILE_PATH ] && cat $CACHE_FILE_PATH || archey | tee $CACHE_FILE_PATH
 }
+
+function _clear_cache_archey() {
+  local CACHE_FILE_PATH=/tmp/archey-cache.txt
+  rm -rf $CACHE_FILE_PATH
+}
